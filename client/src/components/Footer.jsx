@@ -9,9 +9,8 @@ function Footer() {
           <h2 className="mb-3.5 text-3xl font-bold">Portfolio<span className="text-brand-purple">.</span></h2>
           <p className={mutedTextClass}>Premium MERN portfolio built with React, Node, Express and MongoDB.</p>
           <div className="mt-[18px] flex gap-3">
-            <a className={socialLinkClass} href="https://github.com" target="_blank" rel="noreferrer"><FaGithub /></a>
-            <a className={socialLinkClass} href="https://linkedin.com" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
-            <a className={socialLinkClass} href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /></a>
+            <a className={socialLinkClass} href="https://github.com/zk6577" target="_blank" rel="noreferrer"><FaGithub /></a>
+            <a className={socialLinkClass} href="www.linkedin.com/in/ariz-pervez-khan-082b37315" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
           </div>
         </div>
 

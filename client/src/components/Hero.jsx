@@ -38,7 +38,7 @@ function Hero() {
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <a className={socialLinkClass} href="https://github.com/zk6577" target="_blank" rel="noreferrer"><FaGithub /></a>
-            <a className={socialLinkClass} href="https://linkedin.com" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+            <a className={socialLinkClass} href="www.linkedin.com/in/ariz-pervez-khan-082b37315" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
 
           </div>
         </motion.div>
