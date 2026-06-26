@@ -1,35 +1,36 @@
 export const fallbackProjects = [
   {
-    _id: "demo-1",
-    title: "MERN E-Commerce Platform",
-    subtitle: "Full Stack Shopping Website",
-    description: "Premium e-commerce website with cart UI, product pages, admin dashboard and scalable MERN backend.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    _id: "talksy",
+    title: "Talksy",
+    subtitle: "Real-time MERN Chat Application",
+    description:
+      "Talksy is a full-stack chat application built with the MERN stack. It includes secure user authentication, protected routes, a clean responsive UI, and a smooth messaging experience. The backend is built with Node.js and Express.js, while MongoDB stores user and chat data.",
+    image: "https://res.cloudinary.com/dk4k50ikk/image/upload/v1782477751/Screenshot_2026-06-26_180703_pbhhg1.png",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "Render"],
+    githubUrl: "https://github.com/zk6577/ChatApp",
+    liveUrl: "https://chatapp-eseb.onrender.com/login",
     featured: true
   },
   {
-    _id: "demo-2",
-    title: "Task Management App",
-    subtitle: "Productivity Dashboard",
-    description: "A clean task management dashboard with project boards, beautiful cards, filters and responsive UI.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    technologies: ["React", "Express", "JWT", "MongoDB"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    featured: true
-  },
-  {
-    _id: "demo-3",
-    title: "AI Chat Assistant UI",
-    subtitle: "Modern SaaS Interface",
-    description: "Animated AI assistant dashboard with chat UI, analytics cards, dark mode and smooth interactions.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-    technologies: ["React", "Framer Motion", "Node.js"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    _id: "deepseek-ai",
+    title: "DeepSeek AI Clone",
+    subtitle: "AI-powered MERN Chatbot Platform",
+    description:
+      "DeepSeek AI Clone is a full-stack MERN AI chatbot application where users can sign up, log in securely, and interact with an AI assistant through a modern responsive interface. It uses JWT authentication, MongoDB for user data, and AI API integration for generating chatbot responses.",
+    image: "https://res.cloudinary.com/dk4k50ikk/image/upload/v1782481666/Screenshot_2026-06-26_191647_kpojbs.png",
+    technologies: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "AI API",
+      "Render"
+    ],
+    githubUrl: "https://github.com/zk6577/deepseeAi",
+    liveUrl: "https://deepseekai-xcii.onrender.com/",
     featured: true
   }
 ];
