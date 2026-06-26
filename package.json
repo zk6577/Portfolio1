@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-mern",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium animated MERN portfolio website",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": ["mern", "portfolio", "react", "node", "mongodb", "express"],
+  "author": "Your Name",
+  "license": "MIT"
+}

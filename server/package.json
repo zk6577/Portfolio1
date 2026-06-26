@@ -1,0 +1,24 @@
+{
+  "name": "premium-portfolio-server",
+  "version": "1.0.0",
+  "description": "Express and MongoDB backend for premium MERN portfolio",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "nodemailer": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
