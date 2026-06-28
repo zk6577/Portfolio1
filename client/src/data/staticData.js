@@ -32,7 +32,28 @@ export const fallbackProjects = [
     githubUrl: "https://github.com/zk6577/deepseeAi",
     liveUrl: "https://deepseekai-xcii.onrender.com/",
     featured: true
-  }
+  },
+  {
+  _id: "audio-q-a",
+  title: "AudioQ-A",
+  subtitle: "Voice-Based AI Q&A Assistant for Students",
+  description:
+    "AudioQ-A is a Python-based voice Q&A assistant designed for students. It allows users to ask questions using voice or text and provides intelligent responses using a trained TensorFlow/Keras chatbot model. The project uses speech recognition for voice input, text-to-speech for audio output, and a Streamlit interface for an interactive chatbot experience.",
+  image: "https://res.cloudinary.com/dk4k50ikk/image/upload/v1782646198/Screenshot_2026-06-28_165643_ad0c6z.png",
+  technologies: [
+    "Python",
+    "Streamlit",
+    "TensorFlow",
+    "Keras",
+    "NumPy",
+    "Scikit-learn",
+    "SpeechRecognition",
+    "pyttsx3"
+  ],
+  githubUrl: "https://github.com/zk6577/AudioQ-A",
+  liveUrl: "PASTE_LIVE_URL_HERE",
+  featured: true
+}
 ];
 
 export const fallbackSkills = [
