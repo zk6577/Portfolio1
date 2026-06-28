@@ -51,7 +51,7 @@ export const fallbackProjects = [
     "pyttsx3"
   ],
   githubUrl: "https://github.com/zk6577/AudioQ-A",
-  liveUrl: "jggf",
+  liveUrl: "https://github.com/zk6577/AudioQ-A",
   featured: true
 }
 ];
