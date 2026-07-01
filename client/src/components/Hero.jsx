@@ -33,7 +33,7 @@ function Hero() {
 
           <div className="mt-[34px] flex flex-wrap items-center gap-4">
             <a href="#projects" className={primaryButtonClass}>View My Work <FaArrowRight /></a>
-            <a href="/resume.pdf" className={secondaryButtonClass} download="Ariz Pervez Khan Resume.pdf">Download CV <FaDownload /></a>
+            <a href="/Arizresume1.pdf" className={secondaryButtonClass} download="Arizresume1.pdf">Download CV <FaDownload /></a>
           </div>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
