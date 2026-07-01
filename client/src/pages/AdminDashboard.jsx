@@ -175,13 +175,9 @@ function AdminDashboard() {
           />
 
           <button className={submitButtonClass} type="submit">Login</button>
-          {status && <span className={statusClass}>{status}</span>}
 
-          <div className="grid gap-1 border-t border-white/10 pt-3.5 text-brand-muted">
-            <strong>Demo after seed:</strong>
-            <span>admin@portfolio.com</span>
-            <span>admin12345</span>
-          </div>
+
+         
         </form>
       </main>
     );

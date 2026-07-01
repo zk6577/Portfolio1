@@ -6,8 +6,24 @@ import useFetch from "../hooks/useFetch.js";
 import { fallbackProjects } from "../data/staticData.js";
 import { actionLinkClass, glassCardClass, mutedTextClass, sectionClass, tagClass } from "../utils/styles.js";
 
+function mergeProjects(localProjects, apiProjects) {
+  const seen = new Set();
+
+  return [...localProjects, ...apiProjects].filter((project) => {
+    const key = project._id || project.title;
+
+    if (seen.has(key)) {
+      return false;
+    }
+
+    seen.add(key);
+    return true;
+  });
+}
+
 function Projects() {
-  const { data: projects } = useFetch("/projects", fallbackProjects);
+  const { data: apiProjects } = useFetch("/projects", []);
+  const projects = mergeProjects(fallbackProjects, apiProjects);
 
   return (
     <section id="projects" className={sectionClass}>
